@@ -1,4 +1,4 @@
-# 🏥 Hospital Data Analysis — SQL Project
+#  Hospital Data Analysis — SQL Project
 
 **Author:** Amanpreet Kaur  
 **Tools Used:** MySQL  
@@ -7,13 +7,13 @@
 
 
 
-## 📌 Project Overview
+## Project Overview
 
 This project performs end-to-end data analysis on a hospital database (Novara Hospital) containing patient records, encounters, payers, and medical procedures. The goal was to clean the raw data, validate its integrity, and extract meaningful clinical and business insights across three key objectives — Encounters Overview, Cost & Coverage Insights, and Patient Behaviour Analysis.
 
 ---
 
-## 🗂️ Dataset Description
+##  Dataset Description
 
 The database (`hospital_db`) consists of four main tables:
 
@@ -51,7 +51,7 @@ Staging tables were created for all four tables to preserve the original raw dat
 
 ##  Analysis & Key Findings
 
-### 🔹 Objective 1: Encounters Overview
+###  Objective 1: Encounters Overview
 
 **Encounter Class Distribution**
 - Ambulatory encounters are the most frequent at **~42%** of all encounters
@@ -75,7 +75,7 @@ Staging tables were created for all four tables to preserve the original raw dat
 
 ---
 
-### 🔹 Objective 2: Cost & Coverage Insights
+###  Objective 2: Cost & Coverage Insights
 
 **Zero Payer Coverage**
 - **~49%** of encounters (13,577 out of 27,856) had **zero payer coverage**
@@ -115,7 +115,7 @@ Staging tables were created for all four tables to preserve the original raw dat
 
 ---
 
-### 🔹 Objective 3: Patient Behaviour Analysis
+###  Objective 3: Patient Behaviour Analysis
 
 **Quarterly Admissions Trend**
 - Patient admissions show a **generally stable trend** across quarters — no strong seasonal spikes
@@ -158,15 +158,15 @@ Staging tables were created for all four tables to preserve the original raw dat
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 hospital-data-analysis/
-│
-├── Hospital_analysis_.sql        Main SQL file (data cleaning + EDA)
-├── Novara_Hospital.pdf            Presentation with insights & recommendations
-└── Screenshots                    SQL Output
-└── README.md                      Project documentation
+│── Data/-                           #Raw CSV files
+├── Hospital_analysis_.sql           #Main SQL file (data cleaning + EDA)
+├── Novara_Hospital.pdf              #Presentation with insights & recommendations
+└── Screenshots/-                    #SQL Output
+└── README.md                        #Project documentation
 ```
 
 ---
