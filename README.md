@@ -11,6 +11,14 @@
 
 This project performs end-to-end data analysis on a hospital database (Novara Hospital) containing patient records, encounters, payers, and medical procedures. The goal was to clean the raw data, validate its integrity, and extract meaningful clinical and business insights across three key objectives — Encounters Overview, Cost & Coverage Insights, and Patient Behaviour Analysis.
 
+##  Business Problem
+
+Hospitals generate large volumes of patient encounter data, but without structured analysis, it is difficult to identify patterns in patient visits, cost drivers, insurance coverage gaps, and readmission trends.
+
+As a result, decision-makers may struggle to optimize resource allocation, control costs, and improve patient outcomes.
+
+This project aims to bridge that gap by transforming raw hospital data into actionable insights that support operational efficiency, financial planning, and quality of care.
+
 ---
 
 ##  Dataset Description
@@ -197,6 +205,18 @@ hospital-data-analysis/
 - Introduce chronic disease management and preventive care plans
 
 ---
+
+##  Business Impact
+
+This analysis provides a clear view of hospital operations, patient behaviour, and financial patterns, enabling more informed decision-making.
+
+- Improves visibility into high-volume services and resource utilization  
+- Highlights gaps in insurance coverage affecting revenue  
+- Identifies high-risk patients contributing to repeated readmissions  
+- Supports cost optimization for high-impact procedures  
+
+**Outcome:**  
+Enables the hospital to enhance operational efficiency, reduce avoidable readmissions, and improve both patient care quality and financial performance.
 
 ##  About the Author
 
