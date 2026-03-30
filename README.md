@@ -26,7 +26,7 @@ The database (`hospital_db`) consists of four main tables:
 
 ---
 
-## 🧹 Data Cleaning Steps
+##  Data Cleaning Steps
 
 Staging tables were created for all four tables to preserve the original raw data before any modifications.
 
@@ -43,13 +43,13 @@ Staging tables were created for all four tables to preserve the original raw dat
 
 | Check | Result |
 |---|---|
-| NULL values in critical fields | ✅ None found |
-| Logical validity (Start > Stop) | ✅ No invalid records |
-| Negative cost values | ✅ No anomalies found |
+| NULL values in critical fields |  None found |
+| Logical validity (Start > Stop) |  No invalid records |
+| Negative cost values |  No anomalies found |
 
 ---
 
-## 📊 Analysis & Key Findings
+##  Analysis & Key Findings
 
 ### 🔹 Objective 1: Encounters Overview
 
@@ -128,7 +128,7 @@ Staging tables were created for all four tables to preserve the original raw dat
 
 ---
 
-## 💡 Key Insights Summary
+##  Key Insights Summary
 
 | Theme | Finding |
 |---|---|
@@ -141,7 +141,7 @@ Staging tables were created for all four tables to preserve the original raw dat
 
 ---
 
-## 🛠️ SQL Concepts Used
+##  SQL Concepts Used
 
 | Concept | Usage |
 |---|---|
@@ -171,7 +171,7 @@ hospital-data-analysis/
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 1. Import the `hospital_db` database into your MySQL environment
 2. Run `Hospital_analysis_2.sql` sequentially from top to bottom
@@ -180,7 +180,7 @@ hospital-data-analysis/
 
 ---
 
-## ✅ Recommendations Summary
+##  Recommendations Summary
 
 **Encounters & Operations**
 - Prioritize staffing and infrastructure for ambulatory and outpatient services
@@ -198,13 +198,13 @@ hospital-data-analysis/
 
 ---
 
-## 🙋‍♀️ About the Author
+##  About the Author
 
 **Amanpreet Kaur** — Aspiring Data Analyst with skills in SQL, Excel, and data storytelling.  
 Currently building a portfolio in business analytics.
 
-📬 Connect on [LinkedIn](https://www.linkedin.com/in/amanpreet-kaur-37aa17242/) 
-🐙 [GitHub](https://github.com/Amanpreetkaur0941)
+  Let's Connect on [LinkedIn](https://www.linkedin.com/in/amanpreet-kaur-37aa17242/) 
+  [GitHub](https://github.com/Amanpreetkaur0941)
 
 ---
 
